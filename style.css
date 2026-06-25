@@ -1,0 +1,195 @@
+body {
+   font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at top, #0b0f19, #0f2027, #000000);
+    color: #e6f1ff;
+}
+
+/* Center card style */
+.container {
+
+    width: 90%;
+    max-width: 400px;
+
+    margin: 40px auto;
+
+    padding: 20px;
+
+    background: rgba(255, 255, 255, 0.06);
+
+    border-radius: 16px;
+
+    box-shadow: 0 0 20px rgba(0, 200, 255, 0.15);
+
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(0, 200, 255, 0.2);
+}
+
+/* Headings */
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Input fields */
+input {
+
+    width: 94%;
+
+    padding: 15px;
+
+    margin: 10px 0;
+
+    border: none;
+
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 16px;
+}
+
+/* Buttons */
+button {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 8px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+
+    color: white;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+    transition: 0.25s;
+
+    letter-spacing: 0.5px;
+
+    text-transform: uppercase;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 198, 255, 0.6);
+}
+
+button:hover {
+    background: #0072ff;
+    transform: scale(1.03);
+}
+
+/* Secondary button */
+.secondary {
+    background: transparent;
+    border: 2px solid white;
+}
+
+.secondary:hover {
+    background: white;
+    color: black;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+#resultBox {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    background: rgba(0, 198, 255, 0.08);
+    border: 1px solid rgba(0, 198, 255, 0.25);
+    box-shadow: 0 0 15px rgba(0, 198, 255, 0.1)
+}
+
+.home-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 198, 255, 0.6);
+    background: transparent;
+    color: #00c6ff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.home-btn:hover {
+    background: #00c6ff;
+    color: #000;
+    box-shadow: 0 0 15px rgba(0, 198, 255, 0.6);
+}
+
+.result-card {
+
+    margin-top: 15px;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    background: rgba(255,255,255,0.06);
+
+    animation: fadeIn 0.4s ease;
+}
+
+.danger {
+
+    border-left: 4px solid red;
+}
+
+.safe {
+
+    border-left: 4px solid limegreen;
+}
+
+.drug-info {
+
+    margin-top: 10px;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    background: rgba(255,255,255,0.04);
+}
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.result-card h2 {
+
+    font-size: 20px;
+}
+
+.drug-info h3 {
+
+    font-size: 16px;
+}
+
+.drug-info p {
+
+    font-size: 14px;
+}

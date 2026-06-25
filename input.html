@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check Drugs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Drug Interaction Checker</h1>
+
+    <input list="drug-list" type="text" id="drug1" placeholder="Enter first drug">
+
+    <input list="drug-list" type="text" id="drug2" placeholder="Enter second drug">
+
+    <datalist id="drug-list">
+
+        <option value="Aspirin">
+        <option value="Advil">
+        <option value="Ibuprofen">
+        <option value="Paracetamol">
+        <option value="Warfarin">
+        <option value="Methotrexate"></option>
+
+    </datalist>
+
+    <button onclick="runChecker()">CHECK INTERACTION</button>
+
+    <div id="result"></div>
+
+    <button class="home-btn" onclick="goHome()">
+    ⬅ Back Home
+    </button>
+
+</div>
+
+<script src="interactions.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
