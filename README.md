@@ -1,6 +1,6 @@
-##Drug Interaction Checker
+# Drug Interaction Checker
 
-##Group Members
+## Group Members
 
 * Semawit Girum 
 * Nuhamin Hailay
@@ -9,13 +9,13 @@
 * Ruth Asfaw
 * Mahlet Mengesha
 
-##About Drug Interaction Checker
+## About Drug Interaction Checker
 
 The Drug Interaction Checker is a web-based system designed to help users identify potentially dangerous combinations of medications before use.
 
 The system simulates real-world pharmacological interaction detection using computer science concepts such as graph theory and search algorithms.
 
-##How It Works
+## How It Works
 
 Each drug is represented as a node in a graph, while interactions between drugs are represented as edges. When a user enters two drugs, the system checks whether a direct or indirect interaction exists between them.
 
@@ -47,3 +47,7 @@ This project demonstrates how computer science can be applied in healthcare to i
 ## Repository
 
 GitHub Repository: https://github.com/semawit3101/drug-interaction-checker
+
+
+
+
